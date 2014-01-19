@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = TemplateGem::VERSION
   spec.authors       = ["Me Da Man"]
   spec.email         = ["medaman8965@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description - you really should.}
-  spec.summary       = %q{TODO: Write a gem summary - you really should.}
+  spec.description   = %q{This is a template gem that has some teachable moments.}
+  spec.summary       = %q{See how Gemfiles, Rakefiles, Gemspecs, and tests are written!}
   spec.homepage      = ""
   spec.license       = "MIT"
 
