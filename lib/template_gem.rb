@@ -12,6 +12,9 @@ When\ Alexander\ Bell\ invented\ the\ telephone\ he\ had\ 3\ missed\ calls\ from
     def first_name
       "chuck"
     end
+    def last_name
+      "norris"
+    end
 
     def what_chuck_says
       @chucks_lines[Random.rand*@chucks_lines.size]
