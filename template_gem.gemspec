@@ -6,8 +6,8 @@ require 'template_gem/version'
 Gem::Specification.new do |spec|
   spec.name          = "template_gem"
   spec.version       = TemplateGem::VERSION
-  spec.authors       = ["Me Da Man"]
-  spec.email         = ["medaman8965@gmail.com"]
+  spec.authors       = ["Sameer Siruguri"]
+  spec.email         = ["sameers.public@gmail.com"]
   spec.description   = %q{This is a template gem that has some teachable moments.}
   spec.summary       = %q{See how Gemfiles, Rakefiles, Gemspecs, and tests are written!}
   spec.homepage      = ""
