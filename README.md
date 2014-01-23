@@ -1,10 +1,10 @@
 # TemplateGem
 
-TODO: Write a gem description
+This gem is a template that makes it easy to create your own. What is actually does is give you a class called Norris, which generates Chuck Norris sayings.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+You don't really want to install this gem - you want to use it build your own. But if you must, add this line to your application's Gemfile:
 
     gem 'template_gem'
 
@@ -18,7 +18,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    my_chuck = TemplateGem::NorrisIt.new
+    my_chuck.what_chuck_says
+
+Enjoy the glory of Chuck.
 
 ## Contributing
 
