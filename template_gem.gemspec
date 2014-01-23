@@ -10,9 +10,8 @@ Gem::Specification.new do |spec|
   spec.email         = ["sameers.public@gmail.com"]
   spec.description   = %q{This is a template gem that has some teachable moments.}
   spec.summary       = %q{See how Gemfiles, Rakefiles, Gemspecs, and tests are written!}
-  spec.homepage      = ""
+  spec.homepage	     = "http://www.github.com/siruguri/template_gem"
   spec.license       = "MIT"
-  spec.website	     = "http://www.github.com/siruguri/template_gem"
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
