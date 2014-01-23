@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{See how Gemfiles, Rakefiles, Gemspecs, and tests are written!}
   spec.homepage      = ""
   spec.license       = "MIT"
-
+  spec.website	     = "http://www.github.com/siruguri/template_gem"
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
